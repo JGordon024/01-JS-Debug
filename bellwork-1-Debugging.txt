@@ -1,8 +1,9 @@
 Please describe in detail your feelings about where you currently are in JavaScript programming. Please include how well you feel that you have mastered it, as well as listing those things that you think are a challenge to you. Any feedback about whre you are, and where you think you need to go, or would like to go, will be very helpful in getting you there.
-
+I'm not particularly that great with it. I'm not really that capable of doing much on my own when it comes down to JS. I don't really think I've mastered it that much, and I feel like I'm just poor at making functions that are capable of doing things in the website. 
 Please describe in detail the types of "bugs" a coder can expect to encounter when coding a web page with JavaScript. Describe the techniques you have learned to resolve the types of bugs that we have examined so far. Quote an outside source containing information on resolving this type of bug.
 
 Please describe in detail, in your own words, the difference between syntax bugs and logic bugs. Describe the differences in technique in the way that they are resolved. Use an outside source to provide additional information that is relevant to this particular subject matter.
+Syntax bugs are mistakes within the code itself that makes it not do what it's suppose to, where as logic bugs is where the code itself is right, however the way that it's written is not sufficient and not doing what it's suppose to. techterms.com defines syntax errors as A syntax error is an error in the source code of a program, and logic errors as errors in the flow or logic of a program.
 
 Please describe in detail, in your own words, the three different techniques that we have learned so far to resolve logic bugs. What are the advantages and disadvantages of each method?  For this bell work, you do not need to use an outside source to provide additional information that is relevant to this particular subject matter.
 
