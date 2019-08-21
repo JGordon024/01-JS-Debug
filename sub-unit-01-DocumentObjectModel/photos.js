@@ -80,8 +80,34 @@ firstFigure.style.last = "45px";
 //articleElem.appendChild(firstFigure);
 articleElem.insertBefore(firstFigure, document.getElementById("fig2"));
 
-document.getElementsByTagName("img")[3].src="images/IMG_0"+photoOrder[4]+"sm.jpg";
-document.getElementsByTagName("img")[4].src="images/IMG_0"+photoOrder[0]+"sm.jpg";
+document.getElementsByTagName("img")[0].src="images/IMG_0"+photoOrder[0]+"sm.jpg";
+document.getElementsByTagName("img")[4].src="images/IMG_0"+photoOrder[4]+"sm.jpg";
+
+var numberButton = document.querySelector("#fiveButton p");
+numberButton.innerHTML = "Show fewer images";
+if(numberButton.addEventListener){
+   numberButton.removeEventListener("click",previewFive,false);
+   numberButton.addEventListener("click",previewThree,false);
+}else if(numberButton.attachEvent){
+numberButton.detachEvent("onclick", previewFive);
+numberButton.attachEvent("onclick",previewThree);
+}
+}
+
+function previewThree(){
+var articleElem = document.getElementsByTagName("article")[0];
+var numberButton =document.querySelector("#fiveButton p ");
+articleElem.removeChild(document.getElementById("fig1"));
+articleElem.removeChild(document.getElementById("fig5"));
+figureCount=3;
+numberButton.innerHTML = "Show more images";
+if(numberButton.addEventListener){
+   numberButton.removeEventListener("click",previewThree,false);
+   numberButton.addEventListener("click",previewFive,false);
+}else if(numberButton.attachEvent){
+numberButton.detachEvent("onclick",previewThree);
+numberButton.attachEvent("onclick",previewFive);
+}
 
 }
 
